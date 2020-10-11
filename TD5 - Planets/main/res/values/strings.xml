@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Planètes</string>
+    <string name="nouveau">Nouveau</string>
+    <string name="valider">Valider</string>
+    <string name="listevide">Liste vide</string>
+    <string name="mdekm">millions de km</string>
+    <string name="edit">Modification</string>
+    <string name="image">image de la planète</string>
+    <string name="planetes">Planètes</string>
+    <string name="annuler">Annuler</string>
+    <string name="init">Init</string>
+    <string name="hint_nom_planete">nom de la planète</string>
+    <string name="hint_distance_planete">distance en millions de km</string>
+
+</resources>

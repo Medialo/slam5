@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="noms">
+        <item>Mercure</item>
+        <item>Venus</item>
+        <item>Terre</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturne</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <integer-array name="distances">
+        <item>58</item>
+        <item>108</item>
+        <item>150</item>
+        <item>227</item>
+        <item>778</item>
+        <item>1421</item>
+        <item>2876</item>
+        <item>4503</item>
+    </integer-array>
+    <array name="idimages">
+        <item>@drawable/mercure</item>
+        <item>@drawable/venus</item>
+        <item>@drawable/terre</item>
+        <item>@drawable/mars</item>
+        <item>@drawable/jupiter</item>
+        <item>@drawable/saturn</item>
+        <item>@drawable/uranus</item>
+        <item>@drawable/neptune</item>
+    </array>
+    <integer-array name="habitabilite">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+</resources>

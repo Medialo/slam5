@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/item_planete_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/image" />
+
+    <EditText
+        android:id="@+id/item_planete_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textShortMessage"
+        android:hint="@string/hint_nom_planete">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/item_planete_distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_distance_planete"
+        android:inputType="number">
+
+        <requestFocus />
+    </EditText>
+
+    <RatingBar
+        android:numStars="5"
+        android:id="@+id/ratingBar"
+        android:stepSize="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

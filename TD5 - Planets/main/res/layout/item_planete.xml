@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fr.planetes.PlaneteView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/item_planete_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/image" />
+
+    <TextView
+        android:id="@+id/item_planete_nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/item_planete_image"
+        android:layout_toEndOf="@id/item_planete_image"
+        android:gravity="center_vertical"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_planete_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_planete_nom"
+        android:layout_toRightOf="@id/item_planete_image"
+        android:layout_toEndOf="@id/item_planete_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:text="@string/mdekm"
+        android:layout_below="@+id/item_planete_nom"
+        android:layout_toRightOf="@id/item_planete_distance"
+        android:layout_toEndOf="@id/item_planete_distance"/>
+
+    <!-- pour la dernière partie du TP
+    <RatingBar
+        android:id="@+id/item_planete_habitabilite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.5"
+        style="?android:attr/ratingBarStyleSmall"
+        android:isIndicator="true"
+        android:layout_below="@+id/item_planete_distance"
+        android:layout_toEndOf="@+id/item_planete_image" />
+    -->
+
+</fr.planetes.PlaneteView>
