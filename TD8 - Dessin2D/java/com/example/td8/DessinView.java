@@ -96,23 +96,24 @@ public class DessinView extends View
                 figure = Figure.creer(typefigure,color);
                 Log.i("xy down",""+event.getX() + " " +event.getY());
                 figure.setReference(x,y);
+                figures.add(figure);
 
-                return true;
+                
             case MotionEvent.ACTION_MOVE:
               //  Log.i("xy",""+event.getX() + " " +event.getY());
-                if (figure != null)
-                    figure.setCoin(x,y);
-                return true;
+                
+                    figures.getLast().setCoin(x,y);
+                
             case MotionEvent.ACTION_UP:
                // Log.i("xy up",""+event.getX() + " " +event.getY());
-                if(figure != null)
-                    figures.add(figure);
+                
+                    
                 performClick();
 
                 // demander de redessiner la vue => appel à onDraw
 
                 invalidate();
-                return true;
+                
         }
 
         // TODO ce sera à intégrer dans le switch, dans le cas ACTION_UP ok
