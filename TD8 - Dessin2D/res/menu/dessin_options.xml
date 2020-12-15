@@ -1,0 +1,59 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DessinActivity" >
+
+    <item
+        android:id="@+id/menu_formes"
+        android:icon="@drawable/ic_figures"
+        android:showAsAction="ifRoom"
+        android:title="formes">
+        <menu>
+            <item
+                android:id="@+id/menu_ligne"
+                android:icon="@drawable/ic_ligne"
+                android:orderInCategory="100"
+                android:showAsAction="ifRoom"
+                android:title="ligne"/>
+            <item
+                android:id="@+id/menu_rectangle"
+                android:icon="@drawable/ic_rectangle"
+                android:orderInCategory="101"
+                android:showAsAction="ifRoom"
+                android:title="@string/rectangle"/>
+            <item
+                android:id="@+id/menu_cercle"
+                android:icon="@drawable/ic_cercle"
+                android:orderInCategory="100"
+                android:showAsAction="ifRoom"
+                android:title="@string/cercle"/>
+            <item
+                android:id="@+id/menu_palette"
+                android:icon="@drawable/ic_action_go_to_today"
+                android:orderInCategory="103"
+                android:showAsAction="ifRoom"
+                android:title="@string/palette"/>
+            </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_actions"
+        android:icon="@drawable/ic_action_add_to_queue"
+        android:showAsAction="ifRoom"
+        android:title="actions">
+        <menu>
+            <item
+                android:id="@+id/menu_undo"
+                android:icon="@drawable/ic_action_undo"
+                android:orderInCategory="102"
+                android:showAsAction="ifRoom"
+                android:title="@string/undo"/>
+            <item
+                android:id="@+id/menu_swap"
+                android:icon="@drawable/ic_action_import_export"
+                android:orderInCategory="104"
+                android:showAsAction="ifRoom"
+                android:title="@string/swap"/>
+        </menu>
+    </item>
+
+</menu>

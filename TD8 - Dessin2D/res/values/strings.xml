@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dessin</string>
+    <string name="palette">palette</string>
+    <string name="undo">undo</string>
+    <string name="swap">swap</string>
+    <string name="cercle">cercle</string>
+    <string name="ligne">ligne</string>
+    <string name="rectangle">rectangle</string>
+
+</resources>
