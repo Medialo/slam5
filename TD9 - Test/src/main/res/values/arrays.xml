@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="conversions">
+        <item>Choisissez votre conversion</item>
+        <item>inch -> cm</item>
+        <item>psi -> bar</item>
+        <item>mph -> km/h</item>
+    </string-array>
+
+</resources>

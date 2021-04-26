@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Convertisseur</string>
+    <string name="valeur_entree">Valeur à convertir</string>
+    <string name="convertir">Convertir</string>
+    <string name="erreur_saisie">mauvaise entrée ou bug interne</string>
+</resources>
